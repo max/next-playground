@@ -1,9 +1,5 @@
 {
   "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12",
-  "forwardPorts": [
-    3000
-  ],
-  "extensions": [
-    "auchenberg.vscode-browser-preview"
-  ]
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3000]
 }
